@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Chivo:wght@300&family=DM+Serif+Text&family=Great+Vibes&family=Roboto&family=Roboto+Mono:wght@100&display=swap');
+
+
+/* font-family: 'Aboreto', system-ui;
+font-family: 'Chivo', sans-serif;
+font-family: 'DM Serif Text', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+*
+{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+
+
+nav{
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 80px;
+}
+
+.logo{
+    font-family: 'DM Serif Text', serif;
+    font-size: 28px;
+    color: #f2f3f4;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: 500
+}
+
+ul{
+  float: right;
+  margin-right: 20px;
+
+}
+
+ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    
+}
+
+ul li a
+{
+    color:#f2f3f4 ;
+    font-family: 'Chivo', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 7px 13px
+}
+
+a.active,a:hover
+{
+    background-color:#333333 ; 
+    transition: .5s;
+
+}
+
+.checkbtn
+{
+font-size: 30px;
+float: right;
+line-height: 80px;
+color:#f2f3f4 ;
+margin-right: 40px;
+cursor: pointer;
+display: none;
+}
+
+#check
+{
+    display: none;
+}
+
+.carousel-inner
+{
+   
+    height: 550px;
+
+}
+
+.carousel-item
+{
+    height: 550px;
+  
+}
+
+.sec-two
+{
+    width: 100%;
+    height: auto;
+    background-color: #f2f3f4;
+}
+
+.destination
+{
+    width: 100%;
+    height: 200px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    background-color: #f2f3f4;
+}
+
+#h2
+{
+    font-family: 'DM Serif Text', serif;
+    color: #333333;
+    font-size: 2.5em;
+    letter-spacing: .3em;
+    background-color: #f2f3f4;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.flex-container
+{
+    width: 100%;
+    height: auto;
+    background-color: #f2f3f4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px;
+ 
+}
+.flex
+{
+    width: 45%;
+    height: 500px;
+    background-color: #f2f3f4;
+    
+}
+
+.item-1
+{
+background-image: url("./images/georgia.jpg");
+background-size: cover;
+background-position: center;
+}
+.item-2
+{
+background-image: url("./images/japan.jpeg");
+background-size: cover;
+background-position: center;
+}
+.item-3
+{
+background-image: url("./images/ifletower.jpg");
+background-size: cover;
+background-position: center;
+}
+.item-4
+{
+background-image: url("./images/washington.jpg");
+background-size: cover;
+background-position: center;
+}
+
+
+
+#h1
+{
+    font-family: 'DM Serif Text', serif;
+    font-size: 2em;
+    text-align: center;
+    color:  #f5f5f5 ;
+    margin-top: 15px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    overflow: hidden;
+
+
+}
+
+.sec-three
+{
+    width: 100%;
+    height: auto;
+    background-color: #f2f3f4;
+
+}
+
+.gallery
+{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    background-color: #f2f3f4;
+}
+
+#h2b
+{
+    font-family: 'DM Serif Text', serif;
+    color: #333333;
+    font-size: 2.5em;
+    letter-spacing: .3em;
+    background-color: #f2f3f4;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.card-container
+{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f2f3f4;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-bottom: 70px;
+}
+
+.card-text
+{
+    font-style: italic;
+    font-family: 'Chivo', sans-serif;
+    text-align: justify;
+    width: 100%;
+    height: 55%;
+
+}
+
+#span
+{
+    font-weight: bold;
+    font-style: normal;
+}
+
+.card-img-top
+{
+    width: 100%;
+    height: 45%;
+}
+
+.sec-four
+{
+    width: 100%;
+    height: 450px;
+   background-color: #333333;
+}
+
+
+#fhead
+{
+    color: #f2f3f4;
+    font-family: 'DM Serif Text', serif;
+    font-weight: 500;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    
+}
+
+.secondcol
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.link
+{
+    text-decoration: none;
+    padding: 0 8px;
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #f2f3f4;
+
+}
+.thirdcol
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    gap: 1em;
+} 
+
+.brand{
+    color: #f2f3f4;
+    background-color: #333333;
+    transition: all .5s;
+}
+
+.icon
+{
+    height: 30px;
+    width: 30px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+
+#a3
+{
+  text-decoration: #1a1a1a;
+}
+
+#a3:hover
+{
+    text-decoration: underline  #1a1a1a;
+   
+}
+
+.icon #a2{
+    transition: all .5s;
+}
+
+.icon:hover{
+    background-color: #1a1a1a;
+}
+ #a2:hover{
+    background-color: #1a1a1a;
+}
+
+.brand:hover
+{
+    background-color: #1a1a1a;
+}
+
+
+
+
+
+.fourthcol
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding-top: 1em;
+    color: #f2f3f4;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 500;
+  
+    
+}
+
+
+
+.carouselExampleCaptions
+{
+    position: relative;
+    z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media (max-width: 1070px)
+{
+.logo
+{
+    font-size: 30px;
+    padding-left: 50px;
+}
+    ul li a
+    {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 1070px)
+{
+    .checkbtn
+    {
+        display: inline-block;
+    }
+
+    ul 
+    {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color:#333333 ;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 2;
+        position: absolute;
+        
+    }
+
+    ul li  
+    {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    ul li a 
+    {
+        font-size: 19px;
+    }
+
+  a:hover,a.active
+  {
+    background: none;
+    color: #f2f3f4;
+    background-color: #1a1a1a;
+  }
+
+  #check:checked ~ ul 
+  {
+    left: 0;
+  }
+}
+
+@media (max-width: 500px)
+{
+    .logo{
+        font-size: 22px;
+    }
+
+    
+}
+
+@media (max-width: 550px)
+{
+    .link
+    {
+        font-size: .8em;
+    }
+
+
+}
